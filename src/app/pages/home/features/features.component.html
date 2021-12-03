@@ -1,0 +1,7 @@
+<article class="bg-fill mt-36">
+  <div class="container grid gap-20">
+    <ng-container *ngFor="let feature of features; let i = index;">
+      <lbk-feature-card class="block" [isImageFirst]="i % 2 !== 0 " [feature]="feature"></lbk-feature-card>
+    </ng-container>
+  </div>
+</article>

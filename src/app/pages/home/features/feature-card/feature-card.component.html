@@ -1,0 +1,16 @@
+<div class="grid gap-10 py-14 px-8 shadow-2xl rounded-lg md:py-32 md:gap-20 lg:grid-cols-2 lg:place-items-center lg:py-16">
+  <!-- image -->
+  <img class="w-full {{order}}" [src]="feature.src" [alt]="feature.name">
+  <!-- end image -->
+
+  <div class="space-y-6 ">
+
+  <!-- name -->
+  <h3 class="font-black font-heading text-2xl text-center md:text-4xl lg:text-left lg:text-3xl xl:text-4xl">{{feature.name}}</h3>
+  <!-- end name -->
+
+  <!-- description -->
+  <p class="text-center text-muted lg:text-left">{{feature.description}}</p>
+  <!-- end description -->
+  </div>
+</div>

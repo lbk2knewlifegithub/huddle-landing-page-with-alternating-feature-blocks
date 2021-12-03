@@ -31,8 +31,8 @@ module.exports = {
     extend: {
       // create custom fonts here
       fontFamily: {
-        heading: "'LoraRegular', 'serif'",
-        mono: ["'DMMonoRegular'", ...defaultTheme.fontFamily.mono],
+        heading: "'Poppins', 'serif'",
+        mono: ["'Open Sans'", ...defaultTheme.fontFamily.mono],
       },
       // create custom text colors here
       textColor: {
@@ -43,10 +43,9 @@ module.exports = {
       // create custom background colors here
       backgroundColor: {
         fill: withOpacity("--bg-fill"),
+        muted: withOpacity("--bg-muted"),
+        primary: withOpacity("--bg-primary"),
         footer: withOpacity("--bg-footer"),
-        "button-accent": withOpacity("--bg-button-accent"),
-        "button-accent-hover": withOpacity("--bg-button-accent-hover"),
-        "button-muted": withOpacity("--bg-button-muted"),
       },
       borderColor: {
         danger: withOpacity("--border-danger"),
