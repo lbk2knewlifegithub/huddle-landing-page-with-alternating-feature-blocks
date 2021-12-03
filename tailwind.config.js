@@ -39,6 +39,7 @@ module.exports = {
         fill: withOpacity("--text-fill"),
         muted: withOpacity("--text-muted"),
         inverted: withOpacity("--text-inverted"),
+        primary: withOpacity("--text-primary"),
       },
       // create custom background colors here
       backgroundColor: {
